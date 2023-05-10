@@ -1,0 +1,20 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+#article-2 {
+    text-align: center;
+    margin: auto;
+}
+
+#article-2 h2 {
+    align-self: center;
+    font-size: 3.5em;
+    margin-bottom: 30px;
+}
+
+#article-2 p {
+    margin-top: 20px;
+    display: inline-block;
+    width: 73%;
+    font-size: 1.4em;
+}

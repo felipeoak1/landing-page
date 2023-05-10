@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#article-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+
+    color: white;
+}
+
+#article-1 h2 {
+    font-size: 3.3em;
+    width: 55%;
+    margin-bottom: 30px;
+}
+
+#article-1 p {
+    font-size: 1.5em;
+    width: 85%;
+}
+
+#article-1 #rigth-background {
+    background:  url("../img/undraw_static_assets_rpm6.svg") no-repeat center center / contain scroll;
+    height: 100%;
+}
