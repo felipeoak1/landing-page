@@ -19,6 +19,10 @@
     font-size: 0.8em;
 }
 
+#article-3 h2 {
+    margin-bottom: 20px;
+}
+
 #article-3 > div > h3 {
     font-size: 2em;
     margin-bottom: 10px;
