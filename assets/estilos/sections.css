@@ -21,3 +21,12 @@ section#section-2 {
 section#section-3 {
     background: black url("../img/scattered-forcefields.svg") no-repeat center center / cover scroll;
 }
+
+section#section-5 {
+    background: url("../img/scattered-forcefields.svg") no-repeat center center / cover scroll;
+}
+
+section#section-7 {
+    color: white;
+    background: url("../img/scattered-forcefields.svg") no-repeat center center / cover scroll;
+}

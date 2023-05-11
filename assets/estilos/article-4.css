@@ -33,7 +33,7 @@
 }
 
 #article-4 img:hover {
-    rotate: 45deg;
+    rotate: 10deg;
     transition: rotate 1s;
 }
 
