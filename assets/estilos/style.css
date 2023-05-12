@@ -47,10 +47,11 @@ header > h1 {
 }
 
 main {
-    width: 98vw;
+    width: 100vw;
     height: 100vh;
     display: grid;
     grid-template-rows: repeat(8, 1fr);
+    overflow-x: hidden;
 }
 
 article {
@@ -92,7 +93,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99vw;
+    width: 100vw;
     height: 14vh;
-    
+
 }
