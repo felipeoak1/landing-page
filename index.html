@@ -15,9 +15,27 @@
     <link rel="stylesheet" href="assets/estilos/article-6.css">
     <link rel="stylesheet" href="assets/estilos/article-7.css">
     <link rel="stylesheet" href="assets/estilos/media-queries.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
 </head>
-<body>
-    <header>
+<body onresize="Turnoffmenu()">
+    
+    <div id="div-menu-body">
+        <button onclick="Menu()" class="button-header">
+            <span class="material-symbols-outlined" id="icone">
+                menu
+            </span>
+        </button>
+    </div>
+    
+    <header id="header">
+        <div id="div-menu-header">
+            <button onclick="Menu()" class="button-header">
+                <span class="material-symbols-outlined" id="icone">
+                    menu
+                </span>
+            </button>
+        </div>
+
             <div>
                 <h1>LOGO</h1>
                 <nav>
@@ -240,5 +258,29 @@
         </footer>
     </main>
 
+    <script>
+        function Menu() {
+            var header = document.getElementById("header")
+
+            if (header.style.display != 'block') {
+                header.style.display = 'block'
+            } else 
+                header.style.display = 'none'
+        }
+
+        function Turnoffmenu() {
+            let width = window.innerWidth;
+
+            if (width >= 769) {
+                document.getElementById("header").style.display = 'block'
+                document.getElementById("div-menu-body").style.display = 'none'
+                document.getElementById("div-menu-header").style.display = 'none'
+            } else {
+                document.getElementById("header").style.display = 'none'
+                document.getElementById("div-menu-body").style.display = 'block'
+                document.getElementById("div-menu-header").style.display = 'grid'
+            }
+        }
+    </script>
 </body>
 </html>
