@@ -22,7 +22,7 @@
 }
 
 #article-7 #article-7-background-img {
-background: url("../img/undraw_contact_us_re_4qqt.svg") center center / contain scroll;
+    background: url("../img/undraw_contact_us_re_4qqt.svg") no-repeat center center / contain scroll;
 }
 
 #article-7 form {
