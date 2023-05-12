@@ -6,8 +6,6 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
 
-
-    width: 98vw;
     max-width: 1200px;
 }
 
@@ -26,7 +24,6 @@
 }
 
 #article-4 img {
-    zoom: 100%;
     margin-left: 30px;
     margin-bottom: 30px;
     width: calc(33% - 30px);

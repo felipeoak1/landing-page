@@ -26,11 +26,9 @@ background: url("../img/undraw_contact_us_re_4qqt.svg") center center / contain 
 }
 
 #article-7 form {
-    grid-row: 2 / 3;
     grid-column: 1 / 3;
     display: grid;
     
-    grid-template-columns: repeat(auto-fill, 1fr);
     gap: 20px;
 }
 

@@ -6,8 +6,9 @@ section {
     justify-content: center;
     align-items: center;
 
-    width: 100%;
+    width: 99vw;
     height: 99vh;
+    min-height: 900px;
 }
 
 section#section-1 { 
