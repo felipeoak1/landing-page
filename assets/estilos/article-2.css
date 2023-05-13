@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 
 #article-2 {
+    display: grid;
+    justify-items: center;
     text-align: center;
-    margin: auto;
+
 }
 
 #article-2 h2 {
