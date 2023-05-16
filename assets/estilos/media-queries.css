@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
 
 
+@media screen and (max-width: 500px) {
+    
+}
+
 @media screen and (max-width:600px) {
 
     #div-menu-body {
